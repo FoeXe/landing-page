@@ -4,7 +4,7 @@ body {
     font-family: Roboto;
 }
 
-ul, h1, h2, p, button {
+ul, h1, h2, h3, p, button {
     padding: 0px;
     margin: 0px;
 }
@@ -156,4 +156,39 @@ ul {
 
 .signature {
     align-self: flex-end;
+}
+
+.action_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 375px;
+    padding-right: 375px; 
+}
+
+.blue {
+    flex: 1;
+    display: flex;
+    background: #3882F6;
+    border-radius: 10px;
+    padding: 40px 70px;
+}
+
+.action_call {
+    margin-right: auto;
+}
+
+.button_action {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 50px;
+}
+
+.call, .call_text {
+    color: #E5E7EB;
 }
