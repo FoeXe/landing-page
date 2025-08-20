@@ -4,7 +4,7 @@ body {
     font-family: Roboto;
 }
 
-ul, h1, p, button {
+ul, h1, h2, p, button {
     padding: 0px;
     margin: 0px;
 }
@@ -85,4 +85,46 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: rgb(110, 116, 124);
+}
+
+.information_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.information_text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.image_subtext_container {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.image_subtext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.information_subtext {
+    padding-top: 10px;
 }
