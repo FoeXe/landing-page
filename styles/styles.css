@@ -192,3 +192,15 @@ ul {
 .call, .call_text {
     color: #E5E7EB;
 }
+
+.footer_section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
