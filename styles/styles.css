@@ -128,3 +128,32 @@ ul {
 .information_subtext {
     padding-top: 10px;
 }
+
+.quote_section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.quote_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    align-self: flex-end;
+}
